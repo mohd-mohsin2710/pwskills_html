@@ -1,0 +1,137 @@
+﻿Ques 2:-  Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document ?
+
+
+Answer :- 
+In HTML, comments are used to add explanatory notes or remarks within the code that are not visible to the users when the page is rendered in a web browser. Comments are helpful for developers and anyone else working on the code to understand its structure, purpose, or to temporarily disable certain parts of the code 
+
+
+Example:-
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML assignment</title>
+</head>
+<body>
+    <h1> My Website</h1>
+
+
+    <!-- This is a comment explaining the purpose of the following paragraph →
+
+
+    <p>hello! I am mohammad mohsin</p>
+
+
+    <!-- 
+        This is a multiline comment
+        providing additional information
+        about the structure of the page.
+    -->
+
+
+    <div>
+        <!-- This is an inline comment within a div element -->
+        <p>This paragraph is inside a div.</p>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ques:-4  Write a short note on Tag and element with an example ?
+
+
+
+
+Answer:- A "tag" is a fundamental building block that defines the structure and content of an element on a webpage. HTML tags are used to enclose and define different parts of a document, such as headings, paragraphs, links, images, and more. Each tag usually consists of an opening tag, content, and a closing tag, and they work together to create the structure of the HTML document.
+
+
+An "element" is formed by a pair of opening and closing tags, along with the content enclosed between them. The opening tag marks the beginning of the element, and the closing tag marks its end. The content within the tags represents the actual information or media associated with that element. 
+
+
+
+
+Example:-
+
+
+<h1> is the opening tag for a heading element, and </h1> is the closing tag.
+<p> is the opening tag for a paragraph element, and </p> is the closing tag.
+<a> is the opening tag for a link element, and </a> is the closing tag. The href attribute contains the link's destination.
+<img> is the opening tag for an image element, and > is the self-closing tag. The src attribute specifies the image source, and the alt attribute provides alternative text for accessibility.
+
+
+There are many more examples of tag such as <br></br> tag , <hr></hr> tag , etc..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ques 5:- What is the DOCTYPE Declaration in HTML ?
+
+
+Answer:- The DOCTYPE declaration in HTML (Document Type Declaration) is a crucial instruction at the beginning of an HTML document that specifies the version of HTML or XML being used. It helps browsers and other user agents to interpret and render the document correctly by following the specified rules and standards.
+
+
+The DOCTYPE declaration is not an HTML tag; it is an instruction that informs the browser about the version of HTML the document adheres to. Including a DOCTYPE declaration helps ensure consistent rendering across different browsers and avoids compatibility issues.
+
+
+Here is a basic example of a DOCTYPE declaration in an HTML document:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> add title ..</title>
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+</body>
+</html>
+
+
+In this example, <!DOCTYPE html> indicates that the document follows the rules of HTML5, the latest version of HTML.
